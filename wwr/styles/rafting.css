@@ -102,3 +102,7 @@ article p {
     float: right;
     margin: 10px 10px 10px 10px;
 }
+
+.adventure {
+    height: 200px;
+}
