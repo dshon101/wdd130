@@ -31,19 +31,16 @@ p {
     padding: 5px;
 }
 
-
 main {
     max-width: 840px;
 }
 
 aside {
-    width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
 }
 
 aside img {
@@ -74,6 +71,11 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
     color: #000;
+}
+
+aside{
+    width: 20em;
+    text-align: center;
 }
 
 aside h2 {
