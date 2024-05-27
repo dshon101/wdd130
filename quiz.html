@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML,CSS Online Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML and  CSS Quiz Question.</h1>
+    </header>
+    <form>
+        <div class="Questions">
+            <legend>1. What does HTML stand for?</legend>
+            <div class="answers">
+                <label><input type="text" id="q1" name="q1" ></label>
+            </div>
+        </div>
+        <div class="Questions">
+            <legend>2. What does CSS stand for?</legend>
+            <div class="answers">
+                <label><textarea id="q2" name="q2" rows="4" placeholder="Type here..."></textarea></label>
+            </div>
+        </div>
+        <div class="Questions">
+            <legend>3. Which HTML attribute is used to define inline styles?</legend>
+            <div class="answers">
+                <select id="inline_style" name="html_attribute_inline style" >
+                    <option value="chrome">Choose One ...</option>
+                    <option value="firefox">Class</option>
+                    <option value="safari">Style</option>
+                    <option value="edge">Styles</option>
+                    <option value="brave">Font</option>
+                </select>
+            </div>
+        </div>
+        <div class="Questions">
+            <legend>4. How many Web languages do you know?</legend>
+            <div class="answers">
+                <label><input type="number" id="q4" name="q4" ></label>
+            </div>
+        </div>
+        <div class="Questions">
+            <legend>5. What is your Favorite Web language?</legend>
+            <div class="answers">
+                <label><input type="checkbox" id="q5" name="q5" value="HTML">HTML</label>
+                <label><input type="checkbox" id="q5" name="q5" value="CSS">CSS</label>
+                <label><input type="checkbox" id="q5" name="q5" value="JavaScript">JavaScript</label>
+            </div>
+        </div>
+        <div class="Questions">
+            <legend>6. Inline elements are normally displayed without starting a new line.</legend>
+            <div class="answers">
+                <label><input type="radio" id="q6" name="q6" value="A">True</label>
+                <label><input type="radio" id="q6" name="q6" value="B">False</label>
+            </div>
+        </div>
+       
+    
+        <fieldset class="contact">
+            <legend>Contact Information</legend>
+            <div class="Questions">
+                <legend>Would you like us to contact you with your marks?</legend>
+                <div class="answers">
+                    <label><input type="radio" id="yes" name="contact" value="yes">Yes</label>
+                    <label><input type="radio" id="no" name="contact" value="no">No</label>
+
+                </div>
+            </div>
+                  <div>  
+                    <label>Full Name: <input type="text" id="fullname" name="fullname"></label>
+                  </div>
+                  <div>
+                    <label>Email: <input type="email" id="useremail" name="useremail"></label>
+                  </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+    <footer>
+        © 2024 | HTML Form - User Poll Activity | Demetrious Shoniwa
+    </footer>
+</body>
+</html>
