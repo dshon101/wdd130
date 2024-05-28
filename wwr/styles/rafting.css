@@ -131,7 +131,7 @@ a {
      
 }
 
-.hero article { 
+.hero article, .form { 
     position: absolute;
     top: 90px; 
     left: 140px; 
@@ -216,7 +216,7 @@ section h2 {
 
 footer { 
     display: flex; 
-    justify-content: flex-end; 
+    justify-content: center; 
     background-color: var(--accent2-color);
 }
 
@@ -255,3 +255,121 @@ footer p {
     color: var(--accent2-color);
     background-color: var(--accent1-color);
   }
+
+
+  /* additional css for the about us */
+
+.header {
+    text-align: center;
+}
+
+
+  .grid1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+}
+
+.new1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.new2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.new3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.map {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+form {
+    width: 450px;
+    height: 530px;
+    margin: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    /* display: grid; */
+}
+
+fieldset {
+    /* display: grid; */
+    height: 400px;
+    grid-gap: 0.5rem;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 19px;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}   
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, text, email {
+    height: 15px;
+    width: 360px;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #c0c0c0;
+}
+
+textarea {
+    width: 300px;
+    height: 70px;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #c0c0c0;
+}
+ 
+input[type='radio'] {
+    width: auto;
+    height: auto;
+    grid-row-start: auto;
+}
+
+input[type='checkbox'] {
+    width: 19px;
+    height: 19px;
+    padding: 1px;
+    margin: 3px;
+    background-color: #c0c0c0;
+    vertical-align: bottom;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+
+button:hover {
+    background-color: #333;
+}
