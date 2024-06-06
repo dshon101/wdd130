@@ -25,7 +25,7 @@ body {
     padding: 20px;
 }
 header { 
-    padding: 20px;
+    padding: 10px;
     background-color: var(--accent2-color);
 }
 .logo {
@@ -92,7 +92,7 @@ a {
 
 .links {
     background-color: var(--nav-background-color);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     display: flex;
     grid-column: 2;
     
@@ -119,6 +119,9 @@ a {
 .hero2 {
     width: 1000px;
 }
+
+
+
 
 .hero {
     position: relative;
@@ -257,14 +260,14 @@ footer p {
   }
 
 
-  /* additional css for the about us */
-
-.header {
+  /* additional css for the contact Us*/
+  
+  .header {
     text-align: center;
 }
 
 
-  .grid1 {
+.grid1 {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -293,7 +296,7 @@ footer p {
 
 
 
-form {
+.form {
     width: 450px;
     height: 530px;
     margin: 10px;
@@ -342,7 +345,7 @@ textarea {
     padding: 10px;
     background-color: #c0c0c0;
 }
- 
+
 input[type='radio'] {
     width: auto;
     height: auto;
@@ -372,4 +375,187 @@ button {
 
 button:hover {
     background-color: #333;
+}
+
+/* additional css for the Trips */
+main { 
+    padding: 20px; 
+}
+
+.cta { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: var(--accent2-color); 
+}
+
+.trip { 
+    margin-bottom: 20px; 
+}
+
+.trip img { 
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.trip h3 { 
+    font-size: 24px; 
+    color: #333; 
+}
+
+.trip p { 
+    color: #555; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+thead { 
+    background-color: #f5f5f5; 
+}
+
+.btn { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.btn:hover { 
+    background-color: #555; 
+}
+
+/* additional css for the Trips */
+nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  .hero h2 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .newsletter-signup {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .newsletter-signup form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-signup input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  
+  .newsletter-signup button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+  }
+  
+  /* Add custom button style */
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+.full-width-image {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+form {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.hero {
+    position: relative;
+}
+
+.hero h1 { 
+    position: absolute;
+    top: 50px; 
+    left: 330px; 
+     
+}
+
+.hero .newsletter-signup, .form { 
+    position: absolute;
+    top: 90px; 
+    left: 14px; 
+    margin: 10px 190px 0 0;
 }
